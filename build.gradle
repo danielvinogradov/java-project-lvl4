@@ -3,6 +3,7 @@ plugins {
     id 'checkstyle'
     id 'application'
     id 'jacoco'
+    id 'com.adarshr.test-logger' version '3.2.0'
 }
 
 group 'hexlet.code'
@@ -13,8 +14,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'io.javalin:javalin'
-    implementation 'org.slf4j:slf4j-simple'
     implementation 'org.jetbrains:annotations:23.0.0'
     implementation 'org.slf4j:slf4j-simple:1.7.36'
     implementation 'io.javalin:javalin:4.4.0'
