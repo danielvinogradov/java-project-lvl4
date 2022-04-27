@@ -36,3 +36,7 @@ jacocoTestReport {
 compileJava {
     options.release.set(17)
 }
+
+application {
+    mainClass.set('hexlet.code.App')
+}
